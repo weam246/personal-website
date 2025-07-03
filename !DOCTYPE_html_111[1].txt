@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weam Alswat | Computer Engineer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e0f7fa;
+      color: #2e3d49;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 30px;
+      max-width: 400px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      color: #00796b;
+    }
+    p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #00796b;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/120" alt="Profile Picture">
+    <h1>Weam</h1>
+    <p>Computer Engineering Student</p>
+    <p>Passionate about software, AI, and building smart solutions that impact lives.</p>
+    <div class="links">
+      <a href="https://github.com/weam246" target="_blank">GitHub</a>
+      <a href="http://linkedin.com/in/weam-alswat-2108b5358" target="_blank">LinkedIn</a>
+      <a href="mailto:wyamaltyby726@gmail.com">Email</a>
+    </div>
+  </div>
+</body>
+</html>
